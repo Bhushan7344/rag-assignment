@@ -1,0 +1,5 @@
+Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses.
+Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.
+Fixed-size chunking is simple but can break semantic flow.
+Overlapping chunking preserves context across boundaries and may improve recall.
+Semantic chunking uses meaning-based boundaries and often improves coherence.

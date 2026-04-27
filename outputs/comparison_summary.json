@@ -1,0 +1,19 @@
+{
+  "strategies": [
+    {
+      "strategy": "fixed",
+      "chunk_count": 1,
+      "avg_score": 1.8206924597422283
+    },
+    {
+      "strategy": "overlap",
+      "chunk_count": 1,
+      "avg_score": 1.8206924597422283
+    },
+    {
+      "strategy": "semantic",
+      "chunk_count": 2,
+      "avg_score": 1.8160669803619385
+    }
+  ]
+}

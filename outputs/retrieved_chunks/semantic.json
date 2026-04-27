@@ -1,0 +1,92 @@
+{
+  "What is the main objective of this document?": [
+    {
+      "score": 1.6974793672561646,
+      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    },
+    {
+      "score": 1.6974793672561646,
+      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    },
+    {
+      "score": 1.8021140098571777,
+      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    },
+    {
+      "score": 1.8021140098571777,
+      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    }
+  ],
+  "List the key points discussed in the document.": [
+    {
+      "score": 1.7208316326141357,
+      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    },
+    {
+      "score": 1.7208316326141357,
+      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    },
+    {
+      "score": 1.7963072061538696,
+      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    },
+    {
+      "score": 1.7963072061538696,
+      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    }
+  ],
+  "What conclusions or recommendations are provided?": [
+    {
+      "score": 1.8933515548706055,
+      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    },
+    {
+      "score": 1.8933515548706055,
+      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    },
+    {
+      "score": 1.9863181114196777,
+      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    },
+    {
+      "score": 1.9863181114196777,
+      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "metadata": {
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+      }
+    }
+  ]
+}
