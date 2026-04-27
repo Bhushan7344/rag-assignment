@@ -1,91 +1,223 @@
 {
   "What is the main objective of this document?": [
     {
-      "score": 1.6974793672561646,
-      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "score": 1.375091552734375,
+      "text": "Copyright \u00a9 202 5 The Author(s): This is an open access article under the CC BY license \n(http://creativecommons.org/licenses/by/4.0/) \n \n \nInternational Journal of Scientific Research in Science, Engineering and Technology \n \nPrint ISSN - 2395-1990 \nOnline ISSN : 2394-4099 \nAvailable Online at :www.ijsrset.com \ndoi : https://doi.org/10.32628/IJSRSET261313 \n \n \n \n \n \n  \n \n \n \n222 \nOptimizing Technical Documentation for RAG Systems: A Comparative \nAnalysis of Semantic Chunking vs. Structural Formatting \nAashish Dhakal1, Shashank Shree Neupane1, Aadarsha Dhakal2, Muktinath Paudel1 \n1Department of Information Technology, Presidential Graduate School, Kathmandu, Nepal \n2STARTsmall Pvt Ltd \n \nA R T I C L E I N F O  A B S T R A C T \nArticle History: \nAccepted : 01 Jan 2026 \nPublished: 25 Jan 2026 \n \n As software documentation increasingly serves as the knowledge base for \nRetrieval-Augmented Generation (RAG) systems, technical writers face a \ndilemma: should content be optimiz ed for human readability or machine \nre- trievability?",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf",
+        "total_pages": 6,
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "subject": "Research Paper",
+        "creator": "Microsoft\u00ae Word 2010",
+        "producer": "Microsoft\u00ae Word 2010",
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "page_label": "1",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "page": 0,
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "author": "TechnoScience Academy;www.ijsrset.com"
       }
     },
     {
-      "score": 1.6974793672561646,
-      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "score": 1.3750916719436646,
+      "text": "Copyright \u00a9 202 5 The Author(s): This is an open access article under the CC BY license \n(http://creativecommons.org/licenses/by/4.0/) \n \n \nInternational Journal of Scientific Research in Science, Engineering and Technology \n \nPrint ISSN - 2395-1990 \nOnline ISSN : 2394-4099 \nAvailable Online at :www.ijsrset.com \ndoi : https://doi.org/10.32628/IJSRSET261313 \n \n \n \n \n \n  \n \n \n \n222 \nOptimizing Technical Documentation for RAG Systems: A Comparative \nAnalysis of Semantic Chunking vs. Structural Formatting \nAashish Dhakal1, Shashank Shree Neupane1, Aadarsha Dhakal2, Muktinath Paudel1 \n1Department of Information Technology, Presidential Graduate School, Kathmandu, Nepal \n2STARTsmall Pvt Ltd \n \nA R T I C L E I N F O  A B S T R A C T \nArticle History: \nAccepted : 01 Jan 2026 \nPublished: 25 Jan 2026 \n \n As software documentation increasingly serves as the knowledge base for \nRetrieval-Augmented Generation (RAG) systems, technical writers face a \ndilemma: should content be optimiz ed for human readability or machine \nre- trievability?",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "page_label": "1",
+        "total_pages": 6,
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "subject": "Research Paper",
+        "producer": "Microsoft\u00ae Word 2010",
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "creator": "Microsoft\u00ae Word 2010",
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf",
+        "author": "TechnoScience Academy;www.ijsrset.com",
+        "page": 0
       }
     },
     {
-      "score": 1.8021140098571777,
-      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "score": 1.3975834846496582,
+      "text": "The \u2015Lost in the Middle\u2016 Phenomenon \nLiu et al. [4] demonstrated that LLMs stru ggle to \naccess information located in the middle of long input \ncontexts. This finding supports the argu - ment for \n\u2015Chunking\u2016, breaking long documents into smaller  \nsegments. However, the  optimal granularity of \nchunking remains a subject of debate. Too small, and \nthe chunk lacks context; too large, and the signal is \ndiluted.",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "author": "TechnoScience Academy;www.ijsrset.com",
+        "total_pages": 6,
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf",
+        "page_label": "2",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "subject": "Research Paper",
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "page": 1,
+        "creator": "Microsoft\u00ae Word 2010",
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "producer": "Microsoft\u00ae Word 2010"
       }
     },
     {
-      "score": 1.8021140098571777,
-      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "score": 1.3975837230682373,
+      "text": "The \u2015Lost in the Middle\u2016 Phenomenon \nLiu et al. [4] demonstrated that LLMs stru ggle to \naccess information located in the middle of long input \ncontexts. This finding supports the argu - ment for \n\u2015Chunking\u2016, breaking long documents into smaller  \nsegments. However, the  optimal granularity of \nchunking remains a subject of debate. Too small, and \nthe chunk lacks context; too large, and the signal is \ndiluted.",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "producer": "Microsoft\u00ae Word 2010",
+        "total_pages": 6,
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "subject": "Research Paper",
+        "page_label": "2",
+        "page": 1,
+        "author": "TechnoScience Academy;www.ijsrset.com",
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf",
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "creator": "Microsoft\u00ae Word 2010",
+        "keywords": "IJSRSET; http:/ijsrset.com"
       }
     }
   ],
   "List the key points discussed in the document.": [
     {
-      "score": 1.7208316326141357,
-      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "score": 1.307950496673584,
+      "text": "B. The \u2015Hybrid GEO\u2016 Proposal \nBased on this da ta, we propose a hybrid \ndocumentation standard. Technical writers should \nnot choose between Prose or Q&A; they should layer \nthem. Recommendation: Write the main body of \ndocumentation in natural prose (to be chunked by the \nRAG pipeline) for precision. However, append a \nFrequently Asked Questions section at the bottom of \nthe page. This Q&A section acts as a \u2015Retrieval An- \nchor,\u2016 ensuring that if t he chunking strategy fails to \ncapture the nuance, the explicit Q&A pair will catch \nthe query vector. C. Implications for API Documentation \nCurrent API documentation (Swagger/OpenAPI) re- \nlies heavily on structured tables and JSON schemas. Our research sugges ts these formats are largely in - \nvisible to RAG systems. To make API docs \u2015AI - \nReady,\u2016 engineers must generate natural language \ndescriptions alongside the schema definitions. D.",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "subject": "Research Paper",
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "producer": "Microsoft\u00ae Word 2010",
+        "creator": "Microsoft\u00ae Word 2010",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "page": 4,
+        "author": "TechnoScience Academy;www.ijsrset.com",
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "total_pages": 6,
+        "page_label": "5",
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf",
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET"
       }
     },
     {
-      "score": 1.7208316326141357,
-      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "score": 1.307950496673584,
+      "text": "B. The \u2015Hybrid GEO\u2016 Proposal \nBased on this da ta, we propose a hybrid \ndocumentation standard. Technical writers should \nnot choose between Prose or Q&A; they should layer \nthem. Recommendation: Write the main body of \ndocumentation in natural prose (to be chunked by the \nRAG pipeline) for precision. However, append a \nFrequently Asked Questions section at the bottom of \nthe page. This Q&A section acts as a \u2015Retrieval An- \nchor,\u2016 ensuring that if t he chunking strategy fails to \ncapture the nuance, the explicit Q&A pair will catch \nthe query vector. C. Implications for API Documentation \nCurrent API documentation (Swagger/OpenAPI) re- \nlies heavily on structured tables and JSON schemas. Our research sugges ts these formats are largely in - \nvisible to RAG systems. To make API docs \u2015AI - \nReady,\u2016 engineers must generate natural language \ndescriptions alongside the schema definitions. D.",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "page_label": "5",
+        "page": 4,
+        "producer": "Microsoft\u00ae Word 2010",
+        "subject": "Research Paper",
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf",
+        "total_pages": 6,
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "creator": "Microsoft\u00ae Word 2010",
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "author": "TechnoScience Academy;www.ijsrset.com"
       }
     },
     {
-      "score": 1.7963072061538696,
-      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "score": 1.3528099060058594,
+      "text": "1. AWS Cloud Architecture: (Topic: Cold Starts) \n2. Green Computing: (Topic: Power Usage Ef- \nfectiveness - PUE) \n3. Django Framework: (Topic: N+1 Query Prob- \nlem) \n4. Blockchain Technology: (Topic: Proof of \nStake Consensus) \n5. AI Architecture: (Topic: RAG Components) \nC. Corpus Preparation and Chunking Strategy \nFor each domain, we created five variations of the \ncontent. To ensure scientific validity, the semantic \ninformation (the core facts) remained identical across \nall variations; only the structure changed. For the \u2015Chunked\u2016 variations, we utilized a Recur- sive \nCharacter Text Splitter with the following hy- \nperparameters: \n\u2022 Chunk Size: 512 characters. \u2022 Chunk Overlap: 50 characters. \u2022 Separators: Paragraph breaks \u2017\\n\\n\u2017 followed by \nsentence terminators. This configuration was chosen to approximate the \nstandard retrieval window used in commercial RAG \npipelines (e.g., LlamaIndex default settings). D.",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "page_label": "3",
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "total_pages": 6,
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf",
+        "author": "TechnoScience Academy;www.ijsrset.com",
+        "producer": "Microsoft\u00ae Word 2010",
+        "creator": "Microsoft\u00ae Word 2010",
+        "page": 2,
+        "subject": "Research Paper"
       }
     },
     {
-      "score": 1.7963072061538696,
-      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "score": 1.352810025215149,
+      "text": "1. AWS Cloud Architecture: (Topic: Cold Starts) \n2. Green Computing: (Topic: Power Usage Ef- \nfectiveness - PUE) \n3. Django Framework: (Topic: N+1 Query Prob- \nlem) \n4. Blockchain Technology: (Topic: Proof of \nStake Consensus) \n5. AI Architecture: (Topic: RAG Components) \nC. Corpus Preparation and Chunking Strategy \nFor each domain, we created five variations of the \ncontent. To ensure scientific validity, the semantic \ninformation (the core facts) remained identical across \nall variations; only the structure changed. For the \u2015Chunked\u2016 variations, we utilized a Recur- sive \nCharacter Text Splitter with the following hy- \nperparameters: \n\u2022 Chunk Size: 512 characters. \u2022 Chunk Overlap: 50 characters. \u2022 Separators: Paragraph breaks \u2017\\n\\n\u2017 followed by \nsentence terminators. This configuration was chosen to approximate the \nstandard retrieval window used in commercial RAG \npipelines (e.g., LlamaIndex default settings). D.",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf",
+        "author": "TechnoScience Academy;www.ijsrset.com",
+        "page": 2,
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "subject": "Research Paper",
+        "page_label": "3",
+        "creator": "Microsoft\u00ae Word 2010",
+        "producer": "Microsoft\u00ae Word 2010",
+        "total_pages": 6,
+        "moddate": "2026-01-26T20:22:46+05:30"
       }
     }
   ],
   "What conclusions or recommendations are provided?": [
     {
-      "score": 1.8933515548706055,
-      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "score": 1.574798345565796,
+      "text": "Variable Definitions \n1) Standard Prose (Whole). A continuous narra - \ntive paragraph typical of blog posts. Indexed as a \nsin- gle vector. 2) Standard Prose (Chunked). The same narrative \nparagraph, but  split into atomic semantic units. This tests the hypothesis that smaller vectors are \nmore pre- cise. 3) Q&A Format. Explicit Question-Answer pairs \n(e.g., \u2015Q: What causes latency? A: Latency is \ncaused by...\u2016). This structure attempts to mirror \nthe user\u2018s query embedding within the document \nitself. 4) Fact-Dense List. A bulleted list of key-value \npairs (e.g., \u2015* Cause: Cold Start\u2016). This removes \nstop words to test if \u2015fluff\u2016 dilutes vector quality. 5) Structured JSON. A valid JSON -LD object (e.g., \n{\"cause\": \"cold start\" }). This tests if machine -\nreadable schema s commonly used for Google \nRich Snippets are effective in vector search. RESULTS \nWe analyzed the results using two primary metrics: \nWin Rate (Precision) and Mean Reciprocal Rank \n(Consistency). TABLE 1 COMPARATIVE ANALYSIS OF RELATED LITERATURE \nAuthor \n(Year) \nCore Focus Key Contribution Limitation Addressed by This Study \nReimers et al. (2019) [3] \nModel \nArchitecture \nIntroduced SBERT, enabling \nefficient cosine similarity for \nsentence pairs. Focuses on model training, not on how \nto structure the input text for optimal \nembed- ding. Lewis et al. (2020) [2] \nSystem \nArchitecture \nDefined th e  R A G  f r a m ework \ncombining dense retrieval with \ngenerative models. Assumes standard Wikipedia-style prose; \ndoes not test technical documentation \n formats (JSON/Code).",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "page": 2,
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "total_pages": 6,
+        "subject": "Research Paper",
+        "creator": "Microsoft\u00ae Word 2010",
+        "author": "TechnoScience Academy;www.ijsrset.com",
+        "producer": "Microsoft\u00ae Word 2010",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "page_label": "3",
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf"
       }
     },
     {
-      "score": 1.8933515548706055,
-      "text": "Retrieval-Augmented Generation (RAG) combines retrieval and generation to produce grounded responses. Chunking strategy directly impacts retrieval quality because chunk boundaries control context granularity.",
+      "score": 1.574798345565796,
+      "text": "Variable Definitions \n1) Standard Prose (Whole). A continuous narra - \ntive paragraph typical of blog posts. Indexed as a \nsin- gle vector. 2) Standard Prose (Chunked). The same narrative \nparagraph, but  split into atomic semantic units. This tests the hypothesis that smaller vectors are \nmore pre- cise. 3) Q&A Format. Explicit Question-Answer pairs \n(e.g., \u2015Q: What causes latency? A: Latency is \ncaused by...\u2016). This structure attempts to mirror \nthe user\u2018s query embedding within the document \nitself. 4) Fact-Dense List. A bulleted list of key-value \npairs (e.g., \u2015* Cause: Cold Start\u2016). This removes \nstop words to test if \u2015fluff\u2016 dilutes vector quality. 5) Structured JSON. A valid JSON -LD object (e.g., \n{\"cause\": \"cold start\" }). This tests if machine -\nreadable schema s commonly used for Google \nRich Snippets are effective in vector search. RESULTS \nWe analyzed the results using two primary metrics: \nWin Rate (Precision) and Mean Reciprocal Rank \n(Consistency). TABLE 1 COMPARATIVE ANALYSIS OF RELATED LITERATURE \nAuthor \n(Year) \nCore Focus Key Contribution Limitation Addressed by This Study \nReimers et al. (2019) [3] \nModel \nArchitecture \nIntroduced SBERT, enabling \nefficient cosine similarity for \nsentence pairs. Focuses on model training, not on how \nto structure the input text for optimal \nembed- ding. Lewis et al. (2020) [2] \nSystem \nArchitecture \nDefined th e  R A G  f r a m ework \ncombining dense retrieval with \ngenerative models. Assumes standard Wikipedia-style prose; \ndoes not test technical documentation \n formats (JSON/Code).",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "total_pages": 6,
+        "producer": "Microsoft\u00ae Word 2010",
+        "page_label": "3",
+        "subject": "Research Paper",
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "creator": "Microsoft\u00ae Word 2010",
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf",
+        "author": "TechnoScience Academy;www.ijsrset.com",
+        "page": 2
       }
     },
     {
-      "score": 1.9863181114196777,
-      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "score": 1.699424386024475,
+      "text": "International Journal of Scientific Research in Science, Engineering and Technology | www.ijsrset.com | Vol 13 | Issue 1 \nAashish Dhakal et al Int J Sci Res Sci Eng Technol, January-February-2026, 13 (1) : 222-227 \n \n \n \n \n 225 \nAuthor \n(Year) \nCore Focus Key Contribution Limitation Addressed by This Study \nAggarwal et \nal. (2023) [1] \nContent \nOptimization \nCoined \u2015GEO\u2016 (Generative \nEngine Optimization) for AI \nvisibility. Focuses on the Generative phase \n(tone/authority), whereas we focus on the \n*Retrieval* phase (vector math). A. Win Rate Analysis \nThe \u2015Win Rate\u2016 represents the percentage of queries \nwhere a specific structure type appeared at Rank #1. TABLE 2 WIN RATE BY STRUCTURE TYPE (TOP-1 \nACCURACY) \nStructure Type Win Rate (%) \nStandard Prose (Chunked) 28.0% \nStandard Prose (Whole) 24.0% \nQ&A Format (Whole) 24.0% \nFact-Dense (Whole) 20.0% \nStructured JSON (Whole) 4.0% \n \nAs shown in Table 2, Semantically Chunked Prose  \nachieved the highest Win Rate. This confirms the \nhypothesis that high -granularity indexing allows the  \nretriever to \u2015snipe\u2016 specific queries. When a doc- \nument is split into sentences, the vector for a specific \nsentence (e.g., \u2015Provisioned concurrency fixes cold \nstarts\u2016) is mathematically much closer to the query \nvector than a vector representing a whole paragraph \ncontaining five different facts. B. Mean Reciprocal Rank (MRR) Analysis \nMRR meas ures the overall ranking health. A struc - \nture that consistently appears at Rank 2 or 3 is often \nmore valuable in production RAG systems than one \nthat is either Rank 1 or Rank 100. TABLE 3 MEAN RECIPROCAL RANK (MRR) \nStructure Type MRR Score \nQ&A Format (Whole) 0.541 \nStandard Prose (Whole) 0.527 \nFact-Dense (Whole) 0.427 \nStandard Prose (Chunked) 0.398 \nStructured JSON (Whole) 0.260 \nThe data in Table 3 reveals a fascinating inversion. While Chunked Prose won on precision, it failed on \nconsistency (MRR 0.398). Q&A Formatting emerged as \nthe most stable structure (MRR 0.541).",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "creator": "Microsoft\u00ae Word 2010",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "page": 3,
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "page_label": "4",
+        "subject": "Research Paper",
+        "total_pages": 6,
+        "producer": "Microsoft\u00ae Word 2010",
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf",
+        "author": "TechnoScience Academy;www.ijsrset.com"
       }
     },
     {
-      "score": 1.9863181114196777,
-      "text": "Fixed-size chunking is simple but can break semantic flow. Overlapping chunking preserves context across boundaries and may improve recall. Semantic chunking uses meaning-based boundaries and often improves coherence. ",
+      "score": 1.6994245052337646,
+      "text": "International Journal of Scientific Research in Science, Engineering and Technology | www.ijsrset.com | Vol 13 | Issue 1 \nAashish Dhakal et al Int J Sci Res Sci Eng Technol, January-February-2026, 13 (1) : 222-227 \n \n \n \n \n 225 \nAuthor \n(Year) \nCore Focus Key Contribution Limitation Addressed by This Study \nAggarwal et \nal. (2023) [1] \nContent \nOptimization \nCoined \u2015GEO\u2016 (Generative \nEngine Optimization) for AI \nvisibility. Focuses on the Generative phase \n(tone/authority), whereas we focus on the \n*Retrieval* phase (vector math). A. Win Rate Analysis \nThe \u2015Win Rate\u2016 represents the percentage of queries \nwhere a specific structure type appeared at Rank #1. TABLE 2 WIN RATE BY STRUCTURE TYPE (TOP-1 \nACCURACY) \nStructure Type Win Rate (%) \nStandard Prose (Chunked) 28.0% \nStandard Prose (Whole) 24.0% \nQ&A Format (Whole) 24.0% \nFact-Dense (Whole) 20.0% \nStructured JSON (Whole) 4.0% \n \nAs shown in Table 2, Semantically Chunked Prose  \nachieved the highest Win Rate. This confirms the \nhypothesis that high -granularity indexing allows the  \nretriever to \u2015snipe\u2016 specific queries. When a doc- \nument is split into sentences, the vector for a specific \nsentence (e.g., \u2015Provisioned concurrency fixes cold \nstarts\u2016) is mathematically much closer to the query \nvector than a vector representing a whole paragraph \ncontaining five different facts. B. Mean Reciprocal Rank (MRR) Analysis \nMRR meas ures the overall ranking health. A struc - \nture that consistently appears at Rank 2 or 3 is often \nmore valuable in production RAG systems than one \nthat is either Rank 1 or Rank 100. TABLE 3 MEAN RECIPROCAL RANK (MRR) \nStructure Type MRR Score \nQ&A Format (Whole) 0.541 \nStandard Prose (Whole) 0.527 \nFact-Dense (Whole) 0.427 \nStandard Prose (Chunked) 0.398 \nStructured JSON (Whole) 0.260 \nThe data in Table 3 reveals a fascinating inversion. While Chunked Prose won on precision, it failed on \nconsistency (MRR 0.398). Q&A Formatting emerged as \nthe most stable structure (MRR 0.541).",
       "metadata": {
-        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.txt"
+        "page": 3,
+        "creationdate": "2026-01-26T20:22:46+05:30",
+        "keywords": "IJSRSET; http:/ijsrset.com",
+        "moddate": "2026-01-26T20:22:46+05:30",
+        "subject": "Research Paper",
+        "creator": "Microsoft\u00ae Word 2010",
+        "producer": "Microsoft\u00ae Word 2010",
+        "title": "International Journal of Scientific Research in Science, Engineering and Technology,IJSRSET",
+        "page_label": "4",
+        "author": "TechnoScience Academy;www.ijsrset.com",
+        "total_pages": 6,
+        "source": "/Users/bhushan/Developer/Webknot/AI-training/rag-assignment/sample.pdf"
       }
     }
   ]

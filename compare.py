@@ -35,14 +35,17 @@ def run_strategy(
 
     results: dict[str, dict] = {}
     all_scores: list[float] = []
+    query_avg_scores: dict[str, float] = {}
 
     for query in queries:
         retrieved = retrieve_with_scores(store, query=query, k=top_k)
         items: list[RetrievalItem] = []
         context_texts: list[str] = []
+        query_scores: list[float] = []
 
         for doc, score in retrieved:
             all_scores.append(score)
+            query_scores.append(score)
             context_texts.append(doc.page_content)
             items.append(
                 RetrievalItem(
@@ -53,6 +56,7 @@ def run_strategy(
             )
 
         answer = generate_answer(llm=llm, query=query, contexts=context_texts)
+        query_avg_scores[query] = mean(query_scores) if query_scores else 0.0
         results[query] = {
             "retrieved_chunks": [asdict(item) for item in items],
             "answer": answer,
@@ -62,6 +66,7 @@ def run_strategy(
         "strategy": strategy,
         "chunk_count": len(chunks),
         "avg_score": mean(all_scores) if all_scores else 0.0,
+        "query_avg_scores": query_avg_scores,
         "queries": results,
     }
 

@@ -11,7 +11,7 @@ load_dotenv()
 @dataclass
 class Settings:
     base_dir: Path = Path(__file__).resolve().parent
-    source_document: Path = base_dir / os.getenv("SOURCE_DOCUMENT", "sample.txt")
+    source_document: Path = base_dir / os.getenv("SOURCE_DOCUMENT", "sample.pdf")
     chroma_base_dir: Path = base_dir / os.getenv("CHROMA_BASE_DIR", "./chroma_store")
     output_dir: Path = base_dir / os.getenv("OUTPUT_DIR", "./outputs")
     top_k: int = int(os.getenv("TOP_K", "4"))

@@ -6,7 +6,7 @@ from config import get_settings
 from embeddings import get_embedding_model
 from ingestion import load_documents
 from llm import get_llm
-from visualization import plot_avg_scores, plot_chunk_counts
+from visualization import plot_avg_scores, plot_chunk_counts, plot_query_strategy_heatmap
 
 
 DEFAULT_QUERIES = [
@@ -23,9 +23,11 @@ def write_summary_report(all_results: list[dict], out_file: Path) -> None:
                 "strategy": item["strategy"],
                 "chunk_count": item["chunk_count"],
                 "avg_score": item["avg_score"],
+                "query_avg_scores": item["query_avg_scores"],
             }
             for item in all_results
-        ]
+        ],
+        "queries": DEFAULT_QUERIES,
     }
     out_file.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
@@ -63,6 +65,12 @@ def main() -> None:
 
     plot_chunk_counts(chunk_counts, settings.output_dir / "charts" / "chunk_counts.png")
     plot_avg_scores(avg_scores, settings.output_dir / "charts" / "avg_scores.png")
+    per_query_scores = {
+        item["strategy"]: item["query_avg_scores"] for item in all_results
+    }
+    plot_query_strategy_heatmap(
+        per_query_scores, settings.output_dir / "charts" / "query_strategy_scores.png"
+    )
 
     print("Completed RAG chunking comparison.")
     print(f"Outputs saved under: {settings.output_dir}")

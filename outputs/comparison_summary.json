@@ -2,18 +2,38 @@
   "strategies": [
     {
       "strategy": "fixed",
-      "chunk_count": 1,
-      "avg_score": 1.8206924597422283
+      "chunk_count": 15,
+      "avg_score": 1.4329005479812622,
+      "query_avg_scores": {
+        "What is the main objective of this document?": 1.3126392662525177,
+        "List the key points discussed in the document.": 1.358800321817398,
+        "What conclusions or recommendations are provided?": 1.6272620558738708
+      }
     },
     {
       "strategy": "overlap",
-      "chunk_count": 1,
-      "avg_score": 1.8206924597422283
+      "chunk_count": 18,
+      "avg_score": 1.45554185907046,
+      "query_avg_scores": {
+        "What is the main objective of this document?": 1.3822351396083832,
+        "List the key points discussed in the document.": 1.3598586916923523,
+        "What conclusions or recommendations are provided?": 1.6245317459106445
+      }
     },
     {
       "strategy": "semantic",
-      "chunk_count": 2,
-      "avg_score": 1.8160669803619385
+      "chunk_count": 23,
+      "avg_score": 1.4512764116128285,
+      "query_avg_scores": {
+        "What is the main objective of this document?": 1.3863376080989838,
+        "List the key points discussed in the document.": 1.330380231142044,
+        "What conclusions or recommendations are provided?": 1.6371113955974579
+      }
     }
+  ],
+  "queries": [
+    "What is the main objective of this document?",
+    "List the key points discussed in the document.",
+    "What conclusions or recommendations are provided?"
   ]
 }
