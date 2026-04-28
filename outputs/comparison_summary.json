@@ -3,31 +3,31 @@
     {
       "strategy": "fixed",
       "chunk_count": 15,
-      "avg_score": 1.4329005479812622,
+      "avg_score": 1.4655365414089627,
       "query_avg_scores": {
-        "What is the main objective of this document?": 1.3126392662525177,
-        "List the key points discussed in the document.": 1.358800321817398,
-        "What conclusions or recommendations are provided?": 1.6272620558738708
+        "What is the main objective of this document?": 1.3508692582448323,
+        "List the key points discussed in the document.": 1.3821086088816326,
+        "What conclusions or recommendations are provided?": 1.663631757100423
       }
     },
     {
       "strategy": "overlap",
       "chunk_count": 18,
-      "avg_score": 1.45554185907046,
+      "avg_score": 1.475404977798462,
       "query_avg_scores": {
-        "What is the main objective of this document?": 1.3822351396083832,
-        "List the key points discussed in the document.": 1.3598586916923523,
-        "What conclusions or recommendations are provided?": 1.6245317459106445
+        "What is the main objective of this document?": 1.4009928305943806,
+        "List the key points discussed in the document.": 1.3828142881393433,
+        "What conclusions or recommendations are provided?": 1.6424078146616619
       }
     },
     {
       "strategy": "semantic",
       "chunk_count": 23,
-      "avg_score": 1.4512764116128285,
+      "avg_score": 1.476579123073154,
       "query_avg_scores": {
-        "What is the main objective of this document?": 1.3863376080989838,
-        "List the key points discussed in the document.": 1.330380231142044,
-        "What conclusions or recommendations are provided?": 1.6371113955974579
+        "What is the main objective of this document?": 1.3985679149627686,
+        "List the key points discussed in the document.": 1.3586055437723796,
+        "What conclusions or recommendations are provided?": 1.672563910484314
       }
     }
   ],

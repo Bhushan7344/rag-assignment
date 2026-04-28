@@ -14,5 +14,14 @@ def generate_answer(llm: ChatOllama, query: str, contexts: list[str]) -> str:
         f"Context:\n{context_text}\n\n"
         "Answer:"
     )
-    response = llm.invoke(prompt)
-    return response.content if isinstance(response.content, str) else str(response.content)
+    try:
+        response = llm.invoke(prompt)
+        return response.content if isinstance(response.content, str) else str(response.content)
+    except Exception:
+        if contexts:
+            return (
+                "LLM generation fallback: Ollama was unavailable, so this response is built "
+                "from the highest-ranked retrieved context.\n\n"
+                + contexts[0]
+            )
+        return "LLM generation fallback: no retrieved context available."

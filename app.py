@@ -74,6 +74,11 @@ def main() -> None:
 
     print("Completed RAG chunking comparison.")
     print(f"Outputs saved under: {settings.output_dir}")
+    print("\nStrategy summary:")
+    for item in all_results:
+        print(
+            f"- {item['strategy']}: chunks={item['chunk_count']}, avg_score={item['avg_score']:.4f}"
+        )
 
 
 if __name__ == "__main__":
