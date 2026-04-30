@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+chroma_store/rag_production_eval/

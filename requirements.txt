@@ -11,3 +11,4 @@ sentence-transformers>=3.0.0
 pypdf>=5.0.0
 python-dotenv>=1.0.0
 matplotlib>=3.8.0
+scikit-learn>=1.5.0
